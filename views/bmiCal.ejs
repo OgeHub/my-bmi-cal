@@ -1,0 +1,17 @@
+<%- include("partials/header") -%> 
+<div class="bmi-form">
+      <form action="/calculate" method="POST">
+        <div class="wt-ht">
+          <label for="wt">Weight(Kilograms)</label>
+          <input class="weight" type="number"  name="wt" step="any" autocomplete="off" required>
+        </div>
+         
+        <div class="wt-ht">
+          <label for="ht">Height(meters)</label>
+          <input type="number"  name="ht" step="any" autocomplete="off" required>
+        </div>  
+          
+        <button type="submit" class="btn btn-primary">Calculate</button>
+      </form>
+</div>
+<%- include("partials/footer") -%> 

@@ -1,0 +1,85 @@
+body {
+    font-family: Roboto;
+    color: #676b70;
+    background-color: white;
+    background-image: -webkit-linear-gradient(63deg, #bed3f3 50%, white 50%); 
+}
+
+
+
+header {
+    background-color: #3f7fdf;
+    color: #ecf0f5;
+    border-radius: 5%;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-family: Libre Baskerville, Arial;
+}
+
+.bmi-head {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Libre Baskerville, Arial;
+}
+
+.home {
+    padding-top: 58px;
+    padding-bottom: 75px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: Lora, Arial;
+}
+
+.bmi-form {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: Lora, Arial;
+}
+
+.wt-ht {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #2d6bc7;
+}
+
+input {
+    border: #3f7fdf 5px solid;
+    box-shadow: #8d949c;
+    border-radius: 5%;
+}
+.weight {
+    margin-right: 2.3%;
+}
+
+.btn {
+    margin-left: 50px;
+}
+
+.btn:hover {
+    background-color: azure;
+    color: #3f7fdf;
+}
+
+.result {
+    text-align: center;
+    margin: 10% 7%;
+    padding-bottom: 105px;
+    padding-top: 80px;
+    color: #2d79eb;
+    font-family: Lora, Arial;
+}
+
+.foot {
+    color: #f2f4f7;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-family: Lora, Arial;
+}
