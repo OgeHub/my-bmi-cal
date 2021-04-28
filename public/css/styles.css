@@ -20,6 +20,12 @@ header {
     font-family: Libre Baskerville, Arial;
 }
 
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 30px;
+    }
+}
+
 .bmi-head {
     text-align: center;
     padding-top: 30px;
@@ -47,6 +53,12 @@ header {
     padding-bottom: 20px;
     text-align: center;
     color: #2d6bc7;
+}
+
+@media screen and (max-width: 600px) {
+    .wt-ht {
+        padding: auto;
+    }
 }
 
 input {
